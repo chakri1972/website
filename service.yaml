@@ -7,6 +7,6 @@ type: Nodeport
   selector:
     app: nginx
   ports:
-    - port: 80
-      targetport: 80
-      targetPort: 30008
+      port: 80
+      targetPort: 80
+      modePort: 30008
