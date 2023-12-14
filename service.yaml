@@ -9,4 +9,4 @@ type: Nodeport
   ports:
       port: 80
       targetPort: 80
-      modePort: 30008
+      nodePort: 30008
